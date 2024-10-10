@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Form</h1>
+    </header>
+    <main>
+        <form action="/">
+            <h2>How can we help you?</h2>
+            <section>
+                <ul>
+                    <li>
+                        <label for="username">Your name</label>
+                        <input type="text" id="username" name="user-name" required>
+                    </li>
+                    <li>
+                        <label for="useremail">Your e-mail address</label>
+                        <input type="email" id="useremail" name="user-email" required>
+                    </li>
+                    <li>
+                        <label for="userphone">Your phone number</label>
+                        <input type="tel" id="userphone" name="user-number" maxlength="15" required>                        
+                    </li>
+                    <li>
+                        <label for="usermessage">Your message</label>
+                        <textarea name="user-message" id="usermessage" cols="30" rows="10" minlength="10" maxlength="200" required></textarea>
+                    </li>
+                </ul>
+
+            </section>
+            <section>
+                <label for="findus">How did you find us?</label>
+                <select name="" id="findus" required>
+                    <option value="search">Web search</option>
+                    <option value="email">Email</option>
+                    <option value="friend">A friend</option>
+                    <option value="linkedin">LinkedIn</option>
+                    <option value="word-of-mouth">Word of mouth</option>
+                    <option value="Other">Other</option>
+                </select>
+            </section>
+            <section>
+                <h2>How should we reply?</h2>
+                <ul>
+                    <li class="radio-style">
+                        <input type="radio" id="callme" name="reply" value="call" required>
+                        <label for="callme">Call me</label>
+                    </li>
+                    <li class="radio-style">
+                        <input type="radio" id="sendemail" name="reply" value="email" required>
+                        <label for="sendemail">Send me an email</label>    
+                    </li>
+                    <li class="radio-style">
+                        <input type="radio" id="dont" name="reply" value="dont-reply">
+                        <label for="dont">Don't reply</label>
+                    </li>
+                </ul>
+            </section>
+            <section class="radio-style">
+                <input type="checkbox">
+                <label for="">Accept terms</label>
+            </section>
+            <section class="buttons">
+                <button type="reset" id="empty-btn">Clear</button>
+                <button type="submit" id="filled-btn">Submit</button>
+            </section>
+        </form>
+    </main>
+</body>
+</html>

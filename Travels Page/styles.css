@@ -1,0 +1,100 @@
+/* NO RESPONSIVENESS ADDED! */
+
+#hero {
+    height: 600px;
+    background-image: url(/images/places/hero-image.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#hero-content {
+    width: 500px;
+    background-color: rgb(51, 47, 47, 0.7);
+    box-shadow: 2px 2px 6px rgb(68, 67, 67);
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px 0;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+}
+
+#hero-content h1 {
+    color: white;
+     text-transform: uppercase;
+     font-size: 30px;
+     font-family: 'Raleway', sans-serif;
+     margin: 0;
+}
+
+#hero-content p {
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 200;
+    margin-bottom: 25px;
+}
+
+#hero-content a {
+    text-decoration: none;
+    background-color: rgb(255, 251, 0);
+    padding: 8px 12px;
+    border-radius: 3px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+    box-shadow: 2px 3px 4px rgb(65, 67, 67);
+}
+
+#hero-content a:hover {
+    background-color: rgb(224, 210, 14);
+}
+
+#highlights {
+    padding: 20px;
+    background: linear-gradient(0deg, rgb(227, 255, 253), rgb(60, 177, 169) );
+}
+
+#highlights h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(59, 65, 64);
+    margin: 20px 0;
+}
+
+#destinations {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 30px;   
+}
+
+.destination {
+    margin: 0 15px;
+    text-transform: uppercase;
+}
+
+.destination p{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(124, 123, 123);
+    margin: 30px 0;
+    
+}
+
+.destination strong {
+    color: rgb(0, 160, 117);
+}
+
+.destination img {
+    height: 200px;
+    width: 100%;
+    box-shadow: 2px 3px 5px rgb(65, 67, 67);
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+
